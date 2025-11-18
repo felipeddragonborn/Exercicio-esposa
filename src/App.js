@@ -18,7 +18,7 @@ const initialTreinos = {
     { nome: "Bíceps Corda", series: 2, reps: "10 - 12", carga: "", anotacao: "" }
   ],
   C: [
-    { nome: "Mesa Flexora + Aquecimento", aquecimento: 1, series: 3, reps: "10-12", carga: "", anotacao: "" },
+    { nome: "Flexora + Aquecimento", aquecimento: 1, series: 3, reps: "10-12", carga: "", anotacao: "" },
     { nome: "Agachamento Hack + Aquecimento", aquecimento: 1, series: 3, reps: "10 - 12", carga: "", anotacao: "" },
     { nome: "Stiff", series: 3, reps: "10 - 12", carga: "", anotacao: "" },
     { nome: "Elevação Pélvica", series: 3, reps: "10 - 12", carga: "", anotacao: "" },
