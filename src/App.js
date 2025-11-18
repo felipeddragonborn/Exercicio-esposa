@@ -2,19 +2,29 @@ import { useState, useEffect } from "react";
 
 const initialTreinos = {
   A: [
-    { nome: "Agachamento Livre", series: 3, reps: "10-12", carga: "" },
-    { nome: "Leg Press", series: 3, reps: "12-15", carga: "" },
-    { nome: "Cadeira Abdutora", series: 3, reps: "15-20", carga: "" }
+    { nome: "Extensora + Aquecimento", aquecimento: 1, series: 3, reps: "10 - 12", carga: "" },
+    { nome: "Agachamento Hack + Aquecimento", aquecimento: 1, series: 3, reps: "10 - 12", carga: "" },
+    { nome: "Flexonra", series: 3, reps: "10 - 12", carga: "" },
+    { nome: "Cadeira Abdutora", series: 3, reps: "10 - 12", carga: "" },
+    { nome: "Panturrilha", series: 3, reps: "10 - 12", carga: "" }
+    
   ],
   B: [
-    { nome: "Stiff", series: 3, reps: "10-12", carga: "" },
-    { nome: "Mesa Flexora", series: 3, reps: "12-15", carga: "" },
-    { nome: "Elevação Pélvica", series: 3, reps: "10-12", carga: "" }
+    { nome: "Puxada Alta + Aquecimento", aquecimento: 1, series: 3, reps: "10-12", carga: "" },
+    { nome: "Remada Aberta", series: 3, reps: "10 - 12", carga: "" },
+    { nome: "Supino Reyto + Aquecimento", aquecimento: 1, series: 3, reps: "10 - 12", carga: "" },
+    { nome: "Desenvolvimento", series: 3, reps: "10 - 12", carga: "" },
+    { nome: "Elevação Lateral", series: 2, reps: "10 - 12", carga: "" },
+    { nome: "Tríceps Corda", series: 2, reps: "10 - 12", carga: "" },
+    { nome: "Bíceps Corda", series: 2, reps: "10 - 12", carga: "" },
+   
   ],
   C: [
-    { nome: "Agachamento Búlgaro", series: 3, reps: "10-12", carga: "" },
-    { nome: "Cadeira Extensora", series: 3, reps: "12-15", carga: "" },
-    { nome: "Glúteo no Cabo", series: 3, reps: "12-15", carga: "" }
+    { nome: "Mesa Flexora + Aquecimento", aquecimento: 1, series: 3, reps: "10-12", carga: "" },
+    { nome: "Agachamento Hack + Aquecimento", aquecimento: 1, series: 3, reps: "10 - 12", carga: "" },
+    { nome: "Stiff", series: 3, reps: "10 - 12", carga: "" },
+    { nome: "Elevação Pélvica", series: 3, reps: "10 - 12", carga: "" },
+    { nome: "Panturrilha", series: 3, reps: "10 - 12", carga: "" }
   ]
 };
 
