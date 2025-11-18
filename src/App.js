@@ -12,7 +12,7 @@ const initialTreinos = {
   B: [
     { nome: "Puxada Alta + Aquecimento", aquecimento: 1, series: 3, reps: "10-12", carga: "" },
     { nome: "Remada Aberta", series: 3, reps: "10 - 12", carga: "" },
-    { nome: "Supino Reyto + Aquecimento", aquecimento: 1, series: 3, reps: "10 - 12", carga: "" },
+    { nome: "Supino Reto + Aquecimento", aquecimento: 1, series: 3, reps: "10 - 12", carga: "" },
     { nome: "Desenvolvimento", series: 3, reps: "10 - 12", carga: "" },
     { nome: "Elevação Lateral", series: 2, reps: "10 - 12", carga: "" },
     { nome: "Tríceps Corda", series: 2, reps: "10 - 12", carga: "" },
